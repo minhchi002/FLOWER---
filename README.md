@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-"# -NhuPhang" 
-"# -Nh-Phang" 
-"# -Nh-Phang" 
-"# -Nh-Phang" 
-=======
 # ĐỀ TÀI 10: XÂY DỰNG VÀ ĐÁNH GIÁ MÔ HÌNH CNN VÀ MOBILENETV2 TRONG BÀI TOÁN NHẬN DIỆN VÀ PHÂN LOẠI HÌNH ẢNH CÁC LOÀI HOA
 
 - **Trường:** Đại học Nguyễn Tất Thành — Khoa Công nghệ Thông tin
@@ -43,7 +37,4 @@
 ```powershell
 .\.venv\Scripts\python.exe app_nhan_dien_hoa.py --image "data/flower_photos/sunflowers/1008566138_6927679c8a.jpg"
 ```
-"# -NhuPhang" 
-"# -Nh-Phang" 
->>>>>>> 59f16a0507db6195b290a3941184bf2f45d634ed
 "# -Nh-Phang" 
