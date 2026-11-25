@@ -1,0 +1,69 @@
+{
+  "train_total": 2569,
+  "val_total": 551,
+  "test_total": 550,
+  "grand_total": 3670,
+  "img_size": [
+    160,
+    160
+  ],
+  "batch_size": 32,
+  "random_seed": 42,
+  "per_class": [
+    {
+      "class_name": "daisy",
+      "class_vi": "Hoa Cúc (Daisy)",
+      "train": 443,
+      "val": 95,
+      "test": 95,
+      "total": 633,
+      "train_pct": 70.0,
+      "val_pct": 15.0,
+      "test_pct": 15.0
+    },
+    {
+      "class_name": "dandelion",
+      "class_vi": "Hoa Bồ Công Anh (Dandelion)",
+      "train": 629,
+      "val": 135,
+      "test": 134,
+      "total": 898,
+      "train_pct": 70.0,
+      "val_pct": 15.0,
+      "test_pct": 14.9
+    },
+    {
+      "class_name": "roses",
+      "class_vi": "Hoa Hồng (Roses)",
+      "train": 449,
+      "val": 96,
+      "test": 96,
+      "total": 641,
+      "train_pct": 70.0,
+      "val_pct": 15.0,
+      "test_pct": 15.0
+    },
+    {
+      "class_name": "sunflowers",
+      "class_vi": "Hoa Hướng Dương (Sunflowers)",
+      "train": 489,
+      "val": 105,
+      "test": 105,
+      "total": 699,
+      "train_pct": 70.0,
+      "val_pct": 15.0,
+      "test_pct": 15.0
+    },
+    {
+      "class_name": "tulips",
+      "class_vi": "Hoa Tulip (Tulips)",
+      "train": 559,
+      "val": 120,
+      "test": 120,
+      "total": 799,
+      "train_pct": 70.0,
+      "val_pct": 15.0,
+      "test_pct": 15.0
+    }
+  ]
+}

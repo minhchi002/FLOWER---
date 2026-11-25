@@ -1,0 +1,420 @@
+{
+  "test_set_size": 550,
+  "custom_cnn_eval": {
+    "model_label": "Mô hình 1: Custom CNN",
+    "accuracy": 0.7291,
+    "test_loss": 0.7304,
+    "macro_precision": 0.7438,
+    "macro_recall": 0.7385,
+    "macro_f1": 0.7282,
+    "weighted_precision": 0.7566,
+    "weighted_recall": 0.7291,
+    "weighted_f1": 0.7297,
+    "macro_roc_auc": 0.9397,
+    "ci95": {
+      "acc_ci95_low": 0.6891,
+      "acc_ci95_high": 0.7636,
+      "f1_ci95_low": 0.6866,
+      "f1_ci95_high": 0.7627
+    },
+    "infer_total_sec": 7.417,
+    "infer_ms_per_img": 13.49,
+    "infer_fps": 74.2,
+    "confusion_matrix": [
+      [
+        80,
+        8,
+        4,
+        1,
+        2
+      ],
+      [
+        20,
+        91,
+        4,
+        17,
+        2
+      ],
+      [
+        16,
+        6,
+        72,
+        1,
+        1
+      ],
+      [
+        10,
+        2,
+        1,
+        88,
+        4
+      ],
+      [
+        6,
+        3,
+        35,
+        6,
+        70
+      ]
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "daisy",
+        "class_vi": "Hoa Cúc (Daisy)",
+        "precision": 0.6061,
+        "recall": 0.8421,
+        "f1_score": 0.7048,
+        "roc_auc": 0.95,
+        "support": 95,
+        "correct": 80,
+        "misclassified": 15
+      },
+      {
+        "class_id": 1,
+        "class_name": "dandelion",
+        "class_vi": "Hoa Bồ Công Anh (Dandelion)",
+        "precision": 0.8273,
+        "recall": 0.6791,
+        "f1_score": 0.7459,
+        "roc_auc": 0.936,
+        "support": 134,
+        "correct": 91,
+        "misclassified": 43
+      },
+      {
+        "class_id": 2,
+        "class_name": "roses",
+        "class_vi": "Hoa Hồng (Roses)",
+        "precision": 0.6207,
+        "recall": 0.75,
+        "f1_score": 0.6792,
+        "roc_auc": 0.9218,
+        "support": 96,
+        "correct": 72,
+        "misclassified": 24
+      },
+      {
+        "class_id": 3,
+        "class_name": "sunflowers",
+        "class_vi": "Hoa Hướng Dương (Sunflowers)",
+        "precision": 0.7788,
+        "recall": 0.8381,
+        "f1_score": 0.8073,
+        "roc_auc": 0.9657,
+        "support": 105,
+        "correct": 88,
+        "misclassified": 17
+      },
+      {
+        "class_id": 4,
+        "class_name": "tulips",
+        "class_vi": "Hoa Tulip (Tulips)",
+        "precision": 0.8861,
+        "recall": 0.5833,
+        "f1_score": 0.7035,
+        "roc_auc": 0.9249,
+        "support": 120,
+        "correct": 70,
+        "misclassified": 50
+      }
+    ]
+  },
+  "mobilenetv2_eval": {
+    "model_label": "Mô hình 2: MobileNetV2 (Transfer Learning)",
+    "accuracy": 0.9036,
+    "test_loss": 0.3301,
+    "macro_precision": 0.9107,
+    "macro_recall": 0.8996,
+    "macro_f1": 0.9033,
+    "weighted_precision": 0.908,
+    "weighted_recall": 0.9036,
+    "weighted_f1": 0.904,
+    "macro_roc_auc": 0.992,
+    "ci95": {
+      "acc_ci95_low": 0.8781,
+      "acc_ci95_high": 0.9273,
+      "f1_ci95_low": 0.8768,
+      "f1_ci95_high": 0.9257
+    },
+    "infer_total_sec": 10.739,
+    "infer_ms_per_img": 19.53,
+    "infer_fps": 51.2,
+    "confusion_matrix": [
+      [
+        82,
+        7,
+        1,
+        1,
+        4
+      ],
+      [
+        2,
+        126,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        86,
+        0,
+        9
+      ],
+      [
+        3,
+        2,
+        2,
+        90,
+        8
+      ],
+      [
+        0,
+        2,
+        5,
+        0,
+        113
+      ]
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "daisy",
+        "class_vi": "Hoa Cúc (Daisy)",
+        "precision": 0.9425,
+        "recall": 0.8632,
+        "f1_score": 0.9011,
+        "roc_auc": 0.9929,
+        "support": 95,
+        "correct": 82,
+        "misclassified": 13
+      },
+      {
+        "class_id": 1,
+        "class_name": "dandelion",
+        "class_vi": "Hoa Bồ Công Anh (Dandelion)",
+        "precision": 0.913,
+        "recall": 0.9403,
+        "f1_score": 0.9265,
+        "roc_auc": 0.9945,
+        "support": 134,
+        "correct": 126,
+        "misclassified": 8
+      },
+      {
+        "class_id": 2,
+        "class_name": "roses",
+        "class_vi": "Hoa Hồng (Roses)",
+        "precision": 0.9053,
+        "recall": 0.8958,
+        "f1_score": 0.9005,
+        "roc_auc": 0.9875,
+        "support": 96,
+        "correct": 86,
+        "misclassified": 10
+      },
+      {
+        "class_id": 3,
+        "class_name": "sunflowers",
+        "class_vi": "Hoa Hướng Dương (Sunflowers)",
+        "precision": 0.9677,
+        "recall": 0.8571,
+        "f1_score": 0.9091,
+        "roc_auc": 0.9966,
+        "support": 105,
+        "correct": 90,
+        "misclassified": 15
+      },
+      {
+        "class_id": 4,
+        "class_name": "tulips",
+        "class_vi": "Hoa Tulip (Tulips)",
+        "precision": 0.8248,
+        "recall": 0.9417,
+        "f1_score": 0.8794,
+        "roc_auc": 0.9885,
+        "support": 120,
+        "correct": 113,
+        "misclassified": 7
+      }
+    ]
+  },
+  "demo_predictions": [
+    {
+      "image_path": "d:\\Đặng Như Phú\\Bailam\\data\\flower_photos\\daisy\\10140303196_b88d3d6cec.jpg",
+      "original_size": [
+        500,
+        313
+      ],
+      "custom_cnn": {
+        "predicted_class": "daisy",
+        "predicted_vi": "Hoa Cúc (Daisy)",
+        "confidence": 82.81,
+        "latency_ms": 130.88,
+        "probabilities": {
+          "daisy": 82.81,
+          "dandelion": 7.0,
+          "roses": 6.38,
+          "sunflowers": 0.36,
+          "tulips": 3.45
+        }
+      },
+      "mobilenetv2": {
+        "predicted_class": "daisy",
+        "predicted_vi": "Hoa Cúc (Daisy)",
+        "confidence": 100.0,
+        "latency_ms": 129.75,
+        "probabilities": {
+          "daisy": 100.0,
+          "dandelion": 0.0,
+          "roses": 0.0,
+          "sunflowers": 0.0,
+          "tulips": 0.0
+        }
+      },
+      "true_class": "daisy",
+      "true_vi": "Hoa Cúc (Daisy)"
+    },
+    {
+      "image_path": "d:\\Đặng Như Phú\\Bailam\\data\\flower_photos\\dandelion\\10043234166_e6dd915111_n.jpg",
+      "original_size": [
+        320,
+        213
+      ],
+      "custom_cnn": {
+        "predicted_class": "dandelion",
+        "predicted_vi": "Hoa Bồ Công Anh (Dandelion)",
+        "confidence": 85.16,
+        "latency_ms": 122.18,
+        "probabilities": {
+          "daisy": 5.19,
+          "dandelion": 85.16,
+          "roses": 6.2,
+          "sunflowers": 0.13,
+          "tulips": 3.32
+        }
+      },
+      "mobilenetv2": {
+        "predicted_class": "dandelion",
+        "predicted_vi": "Hoa Bồ Công Anh (Dandelion)",
+        "confidence": 100.0,
+        "latency_ms": 128.67,
+        "probabilities": {
+          "daisy": 0.0,
+          "dandelion": 100.0,
+          "roses": 0.0,
+          "sunflowers": 0.0,
+          "tulips": 0.0
+        }
+      },
+      "true_class": "dandelion",
+      "true_vi": "Hoa Bồ Công Anh (Dandelion)"
+    },
+    {
+      "image_path": "d:\\Đặng Như Phú\\Bailam\\data\\flower_photos\\roses\\10503217854_e66a804309.jpg",
+      "original_size": [
+        500,
+        333
+      ],
+      "custom_cnn": {
+        "predicted_class": "roses",
+        "predicted_vi": "Hoa Hồng (Roses)",
+        "confidence": 99.16,
+        "latency_ms": 109.84,
+        "probabilities": {
+          "daisy": 0.0,
+          "dandelion": 0.0,
+          "roses": 99.16,
+          "sunflowers": 0.12,
+          "tulips": 0.72
+        }
+      },
+      "mobilenetv2": {
+        "predicted_class": "roses",
+        "predicted_vi": "Hoa Hồng (Roses)",
+        "confidence": 100.0,
+        "latency_ms": 129.98,
+        "probabilities": {
+          "daisy": 0.0,
+          "dandelion": 0.0,
+          "roses": 100.0,
+          "sunflowers": 0.0,
+          "tulips": 0.0
+        }
+      },
+      "true_class": "roses",
+      "true_vi": "Hoa Hồng (Roses)"
+    },
+    {
+      "image_path": "d:\\Đặng Như Phú\\Bailam\\data\\flower_photos\\sunflowers\\1044296388_912143e1d4.jpg",
+      "original_size": [
+        500,
+        333
+      ],
+      "custom_cnn": {
+        "predicted_class": "sunflowers",
+        "predicted_vi": "Hoa Hướng Dương (Sunflowers)",
+        "confidence": 93.23,
+        "latency_ms": 124.8,
+        "probabilities": {
+          "daisy": 5.17,
+          "dandelion": 0.58,
+          "roses": 0.38,
+          "sunflowers": 93.23,
+          "tulips": 0.64
+        }
+      },
+      "mobilenetv2": {
+        "predicted_class": "sunflowers",
+        "predicted_vi": "Hoa Hướng Dương (Sunflowers)",
+        "confidence": 100.0,
+        "latency_ms": 132.93,
+        "probabilities": {
+          "daisy": 0.0,
+          "dandelion": 0.0,
+          "roses": 0.0,
+          "sunflowers": 100.0,
+          "tulips": 0.0
+        }
+      },
+      "true_class": "sunflowers",
+      "true_vi": "Hoa Hướng Dương (Sunflowers)"
+    },
+    {
+      "image_path": "d:\\Đặng Như Phú\\Bailam\\data\\flower_photos\\tulips\\107693873_86021ac4ea_n.jpg",
+      "original_size": [
+        320,
+        231
+      ],
+      "custom_cnn": {
+        "predicted_class": "tulips",
+        "predicted_vi": "Hoa Tulip (Tulips)",
+        "confidence": 93.79,
+        "latency_ms": 126.33,
+        "probabilities": {
+          "daisy": 0.32,
+          "dandelion": 0.0,
+          "roses": 5.72,
+          "sunflowers": 0.17,
+          "tulips": 93.79
+        }
+      },
+      "mobilenetv2": {
+        "predicted_class": "tulips",
+        "predicted_vi": "Hoa Tulip (Tulips)",
+        "confidence": 99.64,
+        "latency_ms": 122.08,
+        "probabilities": {
+          "daisy": 0.0,
+          "dandelion": 0.0,
+          "roses": 0.36,
+          "sunflowers": 0.0,
+          "tulips": 99.64
+        }
+      },
+      "true_class": "tulips",
+      "true_vi": "Hoa Tulip (Tulips)"
+    }
+  ]
+}

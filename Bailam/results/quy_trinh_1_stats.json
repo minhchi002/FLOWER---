@@ -1,0 +1,121 @@
+{
+  "total_images": 3670,
+  "num_classes": 5,
+  "corrupted_count": 0,
+  "corrupted_files": [],
+  "non_image_files": [
+    "LICENSE.txt"
+  ],
+  "overall_width": {
+    "min": 143,
+    "max": 1024,
+    "mean": 365.06,
+    "std": 116.89,
+    "median": 320.0
+  },
+  "overall_height": {
+    "min": 159,
+    "max": 442,
+    "mean": 271.79,
+    "std": 51.74,
+    "median": 240.0
+  },
+  "overall_file_kb": {
+    "min": 6.85,
+    "max": 275.34,
+    "mean": 61.85,
+    "total_mb": 221.68
+  },
+  "class_summary": [
+    {
+      "class_name": "daisy",
+      "class_vi": "Hoa Cúc (Daisy)",
+      "count": 633,
+      "percentage": 17.25,
+      "min_width": 158,
+      "max_width": 640,
+      "mean_width": 359.4,
+      "min_height": 180,
+      "max_height": 442,
+      "mean_height": 270.9,
+      "mean_aspect_ratio": 1.31,
+      "mean_file_kb": 52.95,
+      "r_mean": 110.69,
+      "g_mean": 112.1,
+      "b_mean": 87.69,
+      "brightness_mean": 103.49
+    },
+    {
+      "class_name": "dandelion",
+      "class_vi": "Hoa Bồ Công Anh (Dandelion)",
+      "count": 898,
+      "percentage": 24.47,
+      "min_width": 146,
+      "max_width": 500,
+      "mean_width": 367.4,
+      "min_height": 211,
+      "max_height": 436,
+      "mean_height": 274.1,
+      "mean_aspect_ratio": 1.32,
+      "mean_file_kb": 52.56,
+      "r_mean": 108.67,
+      "g_mean": 110.44,
+      "b_mean": 72.38,
+      "brightness_mean": 97.16
+    },
+    {
+      "class_name": "roses",
+      "class_vi": "Hoa Hồng (Roses)",
+      "count": 641,
+      "percentage": 17.47,
+      "min_width": 159,
+      "max_width": 640,
+      "mean_width": 364.3,
+      "min_height": 200,
+      "max_height": 439,
+      "mean_height": 274.5,
+      "mean_aspect_ratio": 1.31,
+      "mean_file_kb": 60.55,
+      "r_mean": 126.54,
+      "g_mean": 95.47,
+      "b_mean": 82.83,
+      "brightness_mean": 101.61
+    },
+    {
+      "class_name": "sunflowers",
+      "class_vi": "Hoa Hướng Dương (Sunflowers)",
+      "count": 699,
+      "percentage": 19.05,
+      "min_width": 152,
+      "max_width": 640,
+      "mean_width": 360.3,
+      "min_height": 180,
+      "max_height": 400,
+      "mean_height": 269.8,
+      "mean_aspect_ratio": 1.32,
+      "mean_file_kb": 76.76,
+      "r_mean": 126.82,
+      "g_mean": 120.96,
+      "b_mean": 68.4,
+      "brightness_mean": 105.39
+    },
+    {
+      "class_name": "tulips",
+      "class_vi": "Hoa Tulip (Tulips)",
+      "count": 799,
+      "percentage": 21.77,
+      "min_width": 143,
+      "max_width": 1024,
+      "mean_width": 371.7,
+      "min_height": 159,
+      "max_height": 441,
+      "mean_height": 269.4,
+      "mean_aspect_ratio": 1.37,
+      "mean_file_kb": 67.36,
+      "r_mean": 124.2,
+      "g_mean": 102.62,
+      "b_mean": 79.01,
+      "brightness_mean": 101.94
+    }
+  ]
+}

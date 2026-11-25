@@ -1,0 +1,6 @@
+﻿class_name,class_vi,support,cnn_precision,cnn_recall,cnn_f1,cnn_auc,mnet_precision,mnet_recall,mnet_f1,mnet_auc,f1_gain_pct
+daisy,Hoa Cúc (Daisy),95,0.6061,0.8421,0.7048,0.95,0.9425,0.8632,0.9011,0.9929,19.63
+dandelion,Hoa Bồ Công Anh (Dandelion),134,0.8273,0.6791,0.7459,0.936,0.913,0.9403,0.9265,0.9945,18.06
+roses,Hoa Hồng (Roses),96,0.6207,0.75,0.6792,0.9218,0.9053,0.8958,0.9005,0.9875,22.13
+sunflowers,Hoa Hướng Dương (Sunflowers),105,0.7788,0.8381,0.8073,0.9657,0.9677,0.8571,0.9091,0.9966,10.18
+tulips,Hoa Tulip (Tulips),120,0.8861,0.5833,0.7035,0.9249,0.8248,0.9417,0.8794,0.9885,17.59

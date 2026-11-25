@@ -1,0 +1,6 @@
+﻿class_name,class_vi,count,percentage,min_width,max_width,mean_width,min_height,max_height,mean_height,mean_aspect_ratio,mean_file_kb,r_mean,g_mean,b_mean,brightness_mean
+daisy,Hoa Cúc (Daisy),633,17.25,158,640,359.4,180,442,270.9,1.31,52.95,110.69,112.1,87.69,103.49
+dandelion,Hoa Bồ Công Anh (Dandelion),898,24.47,146,500,367.4,211,436,274.1,1.32,52.56,108.67,110.44,72.38,97.16
+roses,Hoa Hồng (Roses),641,17.47,159,640,364.3,200,439,274.5,1.31,60.55,126.54,95.47,82.83,101.61
+sunflowers,Hoa Hướng Dương (Sunflowers),699,19.05,152,640,360.3,180,400,269.8,1.32,76.76,126.82,120.96,68.4,105.39
+tulips,Hoa Tulip (Tulips),799,21.77,143,1024,371.7,159,441,269.4,1.37,67.36,124.2,102.62,79.01,101.94
