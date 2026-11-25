@@ -38,3 +38,4 @@
 .\.venv\Scripts\python.exe app_nhan_dien_hoa.py --image "data/flower_photos/sunflowers/1008566138_6927679c8a.jpg"
 ```
 "# -NhuPhang" 
+"# -Nh-Phang" 
